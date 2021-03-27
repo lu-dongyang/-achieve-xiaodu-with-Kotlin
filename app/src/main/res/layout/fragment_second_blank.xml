@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".huadong.SecondBlank">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/xiaodu_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="大风可以吹走一张白纸，却吹不走一只蝴蝶，因为生命的力量在于不顺从。"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/juzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_background_color"
+        android:drawableLeft="@mipmap/ac3" />
+
+
+</FrameLayout>

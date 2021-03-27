@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_item"
+        android:title="登录"
+        />
+    <item
+        android:id="@+id/remove_item"
+        android:title="简介" />
+    <item
+        android:id="@+id/contacts"
+        android:title="查看通讯录"/>
+
+
+
+</menu>

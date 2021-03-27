@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.huadongtest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tubiao"
+        android:label="小独"
+        android:roundIcon="@mipmap/tubiao"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Contacts"></activity>
+
+        <service
+            android:name=".download.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".login.BasicActivity" />
+        <activity android:name=".download.downloadService" />
+        <activity android:name=".huadong.music" />
+        <activity android:name=".Database.wenzi" />
+        <activity android:name=".login.jianjie">
+            <intent-filter>
+                <action android:name="com.example.huadongtest.JIANJIE_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Database.database" />
+        <activity android:name=".login.login_">
+            <intent-filter>
+                <action android:name="com.example.huadongtest.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.loginSuccess" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".huadong.ThirdBlank">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/wenzhang_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="楼下装修的电钻怒吼着
+
+早起菜农的叫卖声此起彼伏
+
+昨天没有完工的事情
+
+与做了一半的梦交叠更替
+
+一个声音在呼唤起床劳作
+
+一个影子又让我不愿醒来
+
+冬日慵懒的阳光
+
+穿越半掩的窗户
+
+照在我些许浮肿的脸上
+
+眯缝的双眼与手机对视着
+
+星期 日历 时钟
+
+提醒我
+
+不可以继续那段残梦
+
+冬天的早晨
+
+是一个较量的过程
+
+懒惰与时光在较量
+
+寒冷与毅力在较量
+
+风雪与阳光在较量
+
+美梦与现实在较量
+
+我与我骨子里的随性在较量"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/wenzhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_alignTop="@+id/wenzhang_text"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_background_color"
+        android:drawableLeft="@mipmap/aichong2" />
+
+</FrameLayout>
